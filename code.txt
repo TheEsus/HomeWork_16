@@ -1,0 +1,12 @@
+Log DB
+
+sqlite> create table users (name char, surname char, birthday text);
+sqlite> create table cars (name char, color char, model_speed char);
+sqlite> create table shops (name char, address char);
+sqlite> insert into users (name, surname, birthday)
+   ...> values ('Константин','Антоньев',date('2022-06-11'));
+sqlite> insert into cars (name, color, model_speed)
+   ...> values ('Lada','silver','180 km/h')
+   ...> ;
+sqlite> insert into shops(name, address) values ('Garage54','Kubovaya 186/6');
+sqlite>
